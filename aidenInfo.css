@@ -1,0 +1,58 @@
+body {
+    background-color: #303030;
+}
+
+.c-text, h1 {
+    /* Removed overflow-y and text-overflow styles */
+    color: #3c8c30;
+    font-weight: 400;
+    text-align: center;
+}
+
+.custom-navbar {
+    background: linear-gradient(to right, #3c8c30, darkred);
+}
+
+.nav-link, .navbar-brand {
+    color: black;
+}
+
+.dropdown1,
+.dropdown2,
+.news {
+    background-color: #303030;
+    color: white;
+}
+
+a {
+    color: #3c8c30;
+}
+
+.btn {
+    background-color: #3c8c30;
+    border: #3c8c30;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+
+.carousel-inner {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .carousel-item {
+    width: 100%;
+    height: 500px; /* Adjust the height as needed */
+    overflow: hidden; /* Hide any overflow */
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+

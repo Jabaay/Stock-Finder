@@ -1,0 +1,81 @@
+body {
+    background-color: grey;
+}
+
+.c-text, h1 {
+    /* Removed overflow-y and text-overflow styles */
+    color: #3c8c30;
+    font-weight: 400;
+    text-align: center;
+}
+
+.custom-navbar {
+    background: linear-gradient(to right, #3c8c30, darkred);
+}
+
+.nav-link, .navbar-brand {
+    color: black;
+}
+
+.dropdown1,
+.dropdown2,
+.news {
+    background-color: #303030;
+    color: white;
+}
+
+a {
+    color: #3c8c30;
+}
+
+.btn {
+    background-color: #3c8c30;
+    border: #3c8c30;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.h2 {
+    color: red;
+    font-size: 24px;
+}
+
+.col-md-5 {
+    color: black;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.col-md-7 {
+    color: black;
+    padding-top: 75px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+.highlighted-link {
+    color: rgb(122, 153, 255);
+    text-decoration: underline; 
+}
+
+.custom-image {
+    padding-left: 400px;
+    width: 500px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-caption {
+    background-color: black; /* Set the desired background color */
+    padding: 10px; /* Add padding to create space around the content */
+}
